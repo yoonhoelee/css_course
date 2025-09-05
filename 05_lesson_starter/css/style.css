@@ -1,25 +1,30 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  /* css reset, 브라우저가 margin과 padding을 자동으로 셋팅해주는데 이를 직접 조절하게 한다*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-    min-height: 100vh;
+.container {
+  border: 2px dashed red;
+  border-top: 5px solid green;
+  border-right: 10px dotted blue;
+  font-size: 1.5rem;
+  /* 1em = font-size */
+  margin-top: 1.5em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  padding: 1.5em;
+  outline: 5px solid purple;
+  outline-offset: 5px;
 }
-
-h1 {
-    border: 2px dashed red;
-    width: 50%;
-    font-size: 3rem;
-    padding: 0.5em;
-}
-
-main {
-    font-size: 2rem;
-}
-
-p {
-    font-size: 2rem;
-    width: 40ch;
+.circle {
+  margin: 3rem auto;
+  background-color: gold;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  outline: 2px solid red;
+  outline-offset: 0.25rem;
+  border-radius: 100%;
 }

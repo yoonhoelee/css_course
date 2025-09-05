@@ -1,0 +1,24 @@
+header {
+  width: 100%;
+}
+
+h1 {
+  border: 2px dashed red;
+  /* relative to the parent header */
+  width: 50%;
+}
+
+main {
+  /* viewport width는 스크롤에 대한 것을 고려하지 않아 좌우 스크롤리 발생하게 된다 100% 를 사용하는 것이 더 좋음*/
+  width: 100vw;
+  background-color: skyblue;
+  /* relative to the browser setting */
+  font-size: 2rem;
+}
+
+p {
+  /* em is an absolute it doubles the parent main, if it was rem it would look at browser setting and not change based on the parent main */
+  font-size: 2em;
+  /* p entity의  width가 20개의 character로 설정이 됨 */
+  width: 20ch;
+}
