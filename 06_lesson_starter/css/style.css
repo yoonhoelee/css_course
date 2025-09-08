@@ -1,0 +1,23 @@
+body {
+  padding: 10%;
+  font-size: 2rem;
+}
+
+/* input,
+button {
+  font: inherit;
+} */
+
+p {
+  text-decoration: underline;
+  text-transform: lowercase;
+  text-align: justify;
+  text-indent: 2em;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+  font-weight: 700;
+  font-style: italic;
+  /* monospace is a fallback when sans-serif is not present it uses monospace */
+  font-family: sans-serif, monospace;
+}
