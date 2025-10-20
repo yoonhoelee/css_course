@@ -4,3 +4,33 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
 }
+.columns {
+  columns: 4 250px;
+  column-rule: 3px solid #333;
+  column-gap: 3rem;
+}
+
+/* column 클래스 안의 p 값 수정*/
+.columns p {
+  margin-top: 0;
+}
+
+.columns h2 {
+  background-color: #333;
+  margin-top: 0;
+  color: #fff;
+  padding: 1rem;
+  break-inside: avoid;
+  break-before: column;
+}
+
+.columns .quote {
+  margin-top: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  color: #333;
+  column-span: all;
+}
+.nowrap {
+  white-space: nowrap;
+}
